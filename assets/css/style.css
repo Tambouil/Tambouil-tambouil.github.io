@@ -18973,6 +18973,26 @@ ul li {
   }
 }
 
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .history-wrapper {
+    padding: 100px 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .history-wrapper {
+    padding: 100px 0px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .history-wrapper {
+    padding: 100px 0px;
+  }
+}
+
 /*====================  
     5.4 Contact Page CSS
 ====================*/
