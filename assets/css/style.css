@@ -16765,7 +16765,7 @@ ul li {
 }
 
 .client-crousel .client-crousel-prev i:hover, .client-crousel .client-crousel-next i:hover {
-  color: #739900;
+  color: #FA585A;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
@@ -18137,6 +18137,7 @@ ul li {
 }
 
 /*-- Blog Details Style --*/
+
 .blog-details-content .page-breadcrumb li {
   padding-right: 15px;
   margin-right: 12px;
