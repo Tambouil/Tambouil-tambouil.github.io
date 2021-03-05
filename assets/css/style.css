@@ -17063,6 +17063,12 @@ ul li {
   padding: 10px 0px 30px;
 }
 
+.mobile-menu-inner img {
+  width: 166px; 
+  height: 100px;
+	object-fit: contain;
+}
+
 .mobile-menu > .has-children > a i {
   -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
@@ -19160,6 +19166,12 @@ ul li {
 /*----------------------------------------*/
 .footer-logo {
   margin-bottom: 90px;
+}
+
+.footer-logo img {
+  width: 166px; 
+  height: 100px;
+	object-fit: contain;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
