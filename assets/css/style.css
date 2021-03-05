@@ -15770,7 +15770,7 @@ ul li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.075);
   -webkit-animation: fadeInDown .5s ease-in-out;
           animation: fadeInDown .5s ease-in-out;
-  background: #000000;
+  background: #fff;
   padding: 0 55px;
 }
 
@@ -16837,103 +16837,6 @@ ul li {
   .brand-logo-carousel {
     padding: 60px 0;
   }
-}
-
-/*====================  
-    4.8 News CSS
-====================*/
-.lower-content {
-  position: relative;
-  padding: 45px 40px;
-}
-
-@media only screen and (max-width: 767px) {
-  .lower-content {
-    padding: 30px 15px;
-  }
-}
-
-.lower-content .info-list {
-  position: relative;
-}
-
-.lower-content .info-list li {
-  position: relative;
-  color: #666666;
-  font-size: 14px;
-  margin-right: 10px;
-  padding-right: 12px;
-  display: inline-block;
-  text-transform: uppercase;
-}
-
-.lower-content .info-list li::before {
-  position: absolute;
-  content: '';
-  right: -4px;
-  top: 10px;
-  width: 4px;
-  height: 4px;
-  border-radius: 50px;
-  display: inline-block;
-  background-color: #666666;
-}
-
-.lower-content .info-list li:last-child {
-  color: #739900;
-}
-
-.lower-content .info-list li:last-child::before {
-  display: none;
-}
-
-.lower-content .title {
-  font-family: "Poppins", sans-serif;
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 1.4;
-  margin-top: 10px;
-}
-
-@media only screen and (max-width: 767px) {
-  .lower-content .title {
-    font-size: 20px;
-  }
-}
-
-.news-block {
-  border-right: 1px solid #E6E6E6;
-  height: 100%;
-}
-
-@media only screen and (max-width: 767px) {
-  .news-block {
-    border-right: 0px;
-  }
-}
-
-.news-block .image a {
-  display: block;
-  overflow: hidden;
-}
-
-.news-block .image a img {
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.news-block:hover .image a img {
-  -webkit-transform: scale(1.1) rotate(1deg);
-      -ms-transform: scale(1.1) rotate(1deg);
-          transform: scale(1.1) rotate(1deg);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.news-block:hover .lower-content .title a {
-  color: #739900;
 }
 
 /*====================  
@@ -18976,23 +18879,7 @@ ul li {
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .history-wrapper {
-    padding: 100px 0px;
-  }
-}
 
-@media only screen and (max-width: 767px) {
-  .history-wrapper {
-    padding: 100px 0px;
-  }
-}
-
-@media only screen and (max-width: 479px) {
-  .history-wrapper {
-    padding: 100px 0px;
-  }
-}
 
 /*====================  
     5.4 Contact Page CSS
